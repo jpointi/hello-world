@@ -1,3 +1,17 @@
 language: node_js
 node_js:
   - "lts/*"
+
+dist: trusty
+sudo: required
+
+addons:
+  sonarcloud:
+    organization: "jpointi-github"
+jdk:
+  - oraclejdk8
+script:
+  - sonar-scanner
+cache:
+  directories:
+    - '$HOME/.sonar/cache'
