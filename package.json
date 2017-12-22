@@ -1,0 +1,19 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/jpointi/hello-world.svg?branch=master)](https://travis-ci.org/jpointi/hello-world) [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=jpointi%3Ahello-world)](https://sonarcloud.io/dashboard/index/jpointi%3Ahello-world)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpointi/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpointi/hello-world/issues"
+  },
+  "homepage": "https://github.com/jpointi/hello-world#readme"
+}
